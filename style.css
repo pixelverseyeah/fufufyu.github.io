@@ -1,0 +1,186 @@
+/* General */
+body{
+    background-color: rgb(72, 133, 151);
+}
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(7, 73, 148) rgb(20, 121, 146);
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(17, 88, 196);
+    border-radius: 20px;
+    border: 3px solid rgb(72, 88, 179);
+}
+  
+
+hr {
+    background-color: rgb(6, 39, 77);
+}
+
+iframe{
+    width: max(33.3vw, 324px);
+    height: max(22.7vw, 135px);
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+}
+
+.shadowless {
+    box-shadow: none!important;
+}
+
+.code-tags span{
+    font-family: Consolas, monaco, monospace;
+    padding: 2px;
+    background-color: #0767b6;
+    background-color: rgb(50, 96, 221);
+    margin-right: min(1vh, 1vw);
+}
+
+.my-highlight :hover{
+    background-color: rgb(78, 126, 172);
+}
+
+
+/* Header */
+#my-title{
+    font-size: 3em;
+    text-align: center;
+}
+
+.my-header{
+    font-size: 1.5em;
+}
+
+
+/* Nav Bar */
+
+.my-nav a{
+    color: rgb(20, 89, 179);
+}
+
+.my-nav img{
+    height: min(10vh, 10vw);
+    width: min(10vh, 10vw);
+    position: relative;
+}
+
+.my-nav h2{
+    text-align: center;
+}
+
+.my-nav-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.my-nav-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-nav-content li {
+    font-size: min(3h, 3vw);
+    float: left;
+}
+
+
+.my-nav-content li a {
+    display: block;
+    color: rgb(20, 128, 161);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.my-nav-content li a:hover {
+    background-color: rgb(19, 73, 143);
+}
+
+/* tutorial nav */
+
+.tutorial-nav {
+    display: flex;
+}
+
+
+.tutorial-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tutorial-nav li {
+    float: left;
+}
+
+
+.tutorial-nav li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.tutorial-nav a:hover {
+    background-color: rgb(0, 60, 255);
+}
+
+
+
+/* Other Project Reference Link */
+.other-projects{
+    margin-top: 2%;
+    color: rgb(0, 60, 255);
+}
+
+.other-projects ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.other-projects li {
+    font-size: min(3.5vh, 3.5vw);
+    float: left;
+}
+
+
+.other-projects li a {
+    display: block;
+    color: rgb(0, 102, 255);
+    padding: 16px;
+    text-decoration: none;
+}
+
+.other-projects li a:hover{
+    color: rgb(0, 64, 138);
+}
+
+/* Copy Right Logo */
+.my-copyright {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 225, 255);
+}
+
+.float-right {
+    float: right;
+}
